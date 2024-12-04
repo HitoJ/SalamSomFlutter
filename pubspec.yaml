@@ -1,0 +1,35 @@
+name: projects
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.3
+  firebase_core: ^3.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended lints for better coding practices
+  flutter_lints: ^5.0.0
+
+flutter:
+  # Ensures Material Icons are included
+  uses-material-design: true
+
+  # Add your app's assets here
+  assets:
+    - assets/logo.png
